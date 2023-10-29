@@ -6,9 +6,17 @@
 //
 
 #include <iostream>
+#include <string>
+#include <cassert>
+#include "DataStructures/LinkedList.h"
+#include "DataStructures/HashMap_C.h"
+#include "DataStructures/HashMap_P.h"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    
+    linkedlist::runTests();
+    chaining::runTests();
+    probing::runTests();
+    
     return 0;
 }

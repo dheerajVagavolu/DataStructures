@@ -25,6 +25,12 @@
 /* Begin PBXFileReference section */
 		A21157BC2AEDC5780034B896 /* AdvancedDSA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AdvancedDSA; sourceTree = BUILT_PRODUCTS_DIR; };
 		A21157BF2AEDC5780034B896 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A21157C72AEDC5E80034B896 /* HashMap_C.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HashMap_C.h; sourceTree = "<group>"; };
+		A21157C82AEDC5FE0034B896 /* HashMap_P.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HashMap_P.h; sourceTree = "<group>"; };
+		A21157C92AEDC6170034B896 /* LinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
+		A21157CA2AEDC62C0034B896 /* BTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTree.h; sourceTree = "<group>"; };
+		A21157CB2AEDC64C0034B896 /* BPlusTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPlusTree.h; sourceTree = "<group>"; };
+		A21157CC2AEDD3A90034B896 /* Testing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Testing.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +63,23 @@
 		A21157BE2AEDC5780034B896 /* AdvancedDSA */ = {
 			isa = PBXGroup;
 			children = (
+				A21157C62AEDC5B70034B896 /* DataStructures */,
 				A21157BF2AEDC5780034B896 /* main.cpp */,
 			);
 			path = AdvancedDSA;
+			sourceTree = "<group>";
+		};
+		A21157C62AEDC5B70034B896 /* DataStructures */ = {
+			isa = PBXGroup;
+			children = (
+				A21157C72AEDC5E80034B896 /* HashMap_C.h */,
+				A21157C82AEDC5FE0034B896 /* HashMap_P.h */,
+				A21157C92AEDC6170034B896 /* LinkedList.h */,
+				A21157CA2AEDC62C0034B896 /* BTree.h */,
+				A21157CB2AEDC64C0034B896 /* BPlusTree.h */,
+				A21157CC2AEDD3A90034B896 /* Testing.h */,
+			);
+			path = DataStructures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
