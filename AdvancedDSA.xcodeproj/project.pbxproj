@@ -47,7 +47,8 @@
 		A21157B32AEDC5780034B896 = {
 			isa = PBXGroup;
 			children = (
-				A21157BE2AEDC5780034B896 /* AdvancedDSA */,
+				A21157C62AEDC5B70034B896 /* DataStructures */,
+				A21157BF2AEDC5780034B896 /* main.cpp */,
 				A21157BD2AEDC5780034B896 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,15 +59,6 @@
 				A21157BC2AEDC5780034B896 /* AdvancedDSA */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		A21157BE2AEDC5780034B896 /* AdvancedDSA */ = {
-			isa = PBXGroup;
-			children = (
-				A21157C62AEDC5B70034B896 /* DataStructures */,
-				A21157BF2AEDC5780034B896 /* main.cpp */,
-			);
-			path = AdvancedDSA;
 			sourceTree = "<group>";
 		};
 		A21157C62AEDC5B70034B896 /* DataStructures */ = {
