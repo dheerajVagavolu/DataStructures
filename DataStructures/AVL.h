@@ -1,5 +1,7 @@
 //
 //  AVL.h
+//  (Self balancing Binary Tree)
+
 //  AdvancedDSA
 //
 //  Created by Dheeraj Vagavolu on 29/10/23.
@@ -40,7 +42,7 @@ public:
         if(root == p){
             root = pl;
         }
-        return root;
+        return pl;
     }
     
     Node<T>* RR_Rotation(Node<T>* p){
@@ -56,7 +58,7 @@ public:
         if(root == p){
             root = pr;
         }
-        return root;
+        return pr;
     }
     
     Node<T>* LR_Rotation(Node<T>* p){
@@ -76,7 +78,7 @@ public:
             root = plr;
         }
         
-        return root;
+        return plr;
     }
     
     Node<T>* RL_Rotation(Node<T>* p){
@@ -97,7 +99,7 @@ public:
             root = prl;
         }
         
-        return root;
+        return prl;
     }
     
     
@@ -161,7 +163,7 @@ public:
         }
 //        
         if(balanceFactor(t) == -2 && balanceFactor(t->rc)==1){
-            // LL rotation
+            // RL rotation
             return RL_Rotation(t);
         }
         
@@ -183,6 +185,21 @@ public:
     
 };
 
+void testDoubleRotation(){
+    
+    std::cout << std::string(40, '-') << "\n";
+    std::cout << "Testing double Rotations >> (20, 10, 5)" << std::endl;
+    std::cout << std::string(40, '-') << "\n";
+    
+    AVL tree = AVL<int>();
+    tree.insert(20);
+    tree.insert(10);
+    tree.insert(30);
+    tree.insert(25);
+    tree.insert(28);
+    tree.printTree();
+    std::cout << std::string(40, '-') << "\n\n";
+}
 
 void testLL(){
     
@@ -242,6 +259,7 @@ void testRL(){
 
 
 void runTests(){
+    testDoubleRotation();
     testLL();
     testRR();
     testLR();
