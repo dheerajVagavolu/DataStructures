@@ -11,12 +11,17 @@
 #include "DataStructures/LinkedList.h"
 #include "DataStructures/HashMap_C.h"
 #include "DataStructures/HashMap_P.h"
+#include "DataStructures/AVL.h"
+
 
 int main(int argc, const char * argv[]) {
     
-    linkedlist::runTests();
-    chaining::runTests();
-    probing::runTests();
+    
+//    linkedlist::runTests();
+//    chaining::runTests();
+//    probing::runTests();
+    
+    avl::runTests();
     
     return 0;
 }

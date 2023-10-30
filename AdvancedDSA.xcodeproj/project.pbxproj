@@ -31,6 +31,7 @@
 		A21157CA2AEDC62C0034B896 /* BTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTree.h; sourceTree = "<group>"; };
 		A21157CB2AEDC64C0034B896 /* BPlusTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPlusTree.h; sourceTree = "<group>"; };
 		A21157CC2AEDD3A90034B896 /* Testing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Testing.h; sourceTree = "<group>"; };
+		A21157CD2AEF159E0034B896 /* AVL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVL.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +71,7 @@
 				A21157CA2AEDC62C0034B896 /* BTree.h */,
 				A21157CB2AEDC64C0034B896 /* BPlusTree.h */,
 				A21157CC2AEDD3A90034B896 /* Testing.h */,
+				A21157CD2AEF159E0034B896 /* AVL.h */,
 			);
 			path = DataStructures;
 			sourceTree = "<group>";
